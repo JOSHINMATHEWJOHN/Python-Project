@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from datetime import datetime, timedelta, timezone
 
-API_KEY = "7b6722719d3793823c96a48353049911"
+API_KEY = <provide the unique key>
 #streamlit run C:\Users\hp\PycharmProjects\PythonProject\Python Project\Demo.py
 
 def convert_to_celsius(temperature_in_kelvin):
@@ -53,5 +53,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
